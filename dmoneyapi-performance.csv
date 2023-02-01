@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1675080692759,115,Login User,200,OK,Thread Group 1-1,text,true,,546,314,1,1,http://dmoney.roadtocareer.net/user/login,107,0,73
+1675080692948,46,Create Agent,201,Created,Thread Group 1-1,text,true,,572,610,1,1,http://dmoney.roadtocareer.net/user/create,46,0,0
+1675080692995,29,Create User,201,Created,Thread Group 1-1,text,true,,572,610,1,1,http://dmoney.roadtocareer.net/user/create,29,0,0
+1675080693025,18,Create existing user,208,Already Reported,Thread Group 1-1,text,true,,365,611,1,1,http://dmoney.roadtocareer.net/user/create,18,0,0
+1675080693043,68,Give balance newly agent from system,201,Created,Thread Group 1-1,text,true,,412,531,1,1,http://dmoney.roadtocareer.net/transaction/deposit,68,0,0
+1675080693112,35,Search user by phone number,200,OK,Thread Group 1-1,text,true,,571,440,1,1,http://dmoney.roadtocareer.net/user/search/phonenumber/01705237628,35,0,0
+1675080693147,20,Search user by Id,200,OK,Thread Group 1-1,text,true,,572,424,1,1,http://dmoney.roadtocareer.net/user/search/id/4567,20,0,0
+1675080693167,39,Search user by Email,200,OK,Thread Group 1-1,text,true,,582,446,1,1,http://dmoney.roadtocareer.net/user/search/email/salman@roadtocareer.net,39,0,0
+1675080693206,39,Deposit to the customer from the agent,201,Created,Thread Group 1-1,text,true,,405,536,1,1,http://dmoney.roadtocareer.net/transaction/deposit,39,0,0
+1675080693246,1069,Withdraw money from agent,201,Created,Thread Group 1-1,text,true,,398,535,1,1,https://dmoney.roadtocareer.net/transaction/withdraw,1069,0,1039
+1675080694316,21,Delete user,200,OK,Thread Group 1-1,text,true,,343,443,1,1,http://dmoney.roadtocareer.net/user/delete/4567,21,0,0
